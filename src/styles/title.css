@@ -1,0 +1,16 @@
+.title {
+  width: max-content;
+  font-size: var(--size-xl);
+  line-height: var(--size-2xl);
+}
+
+.subtitle {
+  width: max-content;
+  font-size: var(--size-md);
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: var(--size-2xl);
+  }
+}
